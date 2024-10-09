@@ -28,6 +28,27 @@ header h2 {
     margin-left: 20px;
 }
 
+.pHead{
+    
+        margin-top: -150px;    /*  project title title format */
+        
+    
+
+}
+.aHead{
+    margin-top: -150px;    /*  about me title format */
+    
+}
+.aP{     /*  This is the paragraphs formatting in the about section */
+    margin-top: 40px; 
+    margin-left: 10px;
+}
+.aP2{
+    margin-top: 15px; 
+    margin-left: 10px;
+
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -93,11 +114,13 @@ footer {
     padding-top: 100px;
 }
 .dropdown {
-    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .project-desc {
     display: none;
+    margin-top: 100px;
+    
 }
 
 .project-desc.active {
